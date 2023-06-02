@@ -1,0 +1,18 @@
+.zeroTasks {
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-500);
+  line-height: 1.4;
+}
+
+.zeroTasks strong {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.zeroTasks span {
+  text-align: center;
+}

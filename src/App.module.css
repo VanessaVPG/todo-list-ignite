@@ -1,0 +1,86 @@
+.wrapper {
+    max-width: 46rem;
+    margin-inline: auto;
+    padding: 0 1rem 0 1rem;
+}
+
+.counter {
+    background: var(--gray-600);
+    border-radius: 8px;
+    padding: 0.125rem 0.5rem;
+    color: var(--gray-200);
+    font-size: 0.75rem;
+}
+
+section {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .status {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.createdTasks {
+    font-size: 0.875rem;
+    color: var(--blue-500);
+}
+
+.doneTasks {
+    font-size: 0.875rem;
+    color: var(--purple-500);
+}
+
+.todoInput {
+    display: flex;
+    margin-top: -2.5rem;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.todoInput input {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    background: var(--gray-700);
+    border: 1px solid var(--gray-900);
+    color: var(--gray-500);
+    line-height: 1.4;
+}
+
+.todoInput input:focus {
+    color: var(--white);
+}
+
+.todoInput button {
+    display: flex;
+    gap: 0.5rem;
+    background: var(--blue-600);
+    color: var(--white);
+    font-weight: bold;
+    padding: 1rem;
+    border: 0;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.todoInput button:hover {
+    background: var(--blue-500);
+}
+
+.todoInput button:disabled {
+    background: var(--gray-500);
+    cursor: not-allowed;
+}
+
+main {
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--gray-600);
+    border-radius: 8px;
+}
